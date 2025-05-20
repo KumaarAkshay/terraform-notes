@@ -1,0 +1,6 @@
+credentials  = "/workspaces/terraform-notes/key.json"
+project_id   = "project-info-prac"
+region       = "asia-south2"
+machine_type = "e2-medium"
+zone         = "asia-south2-a"
+image        = "projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20250111"

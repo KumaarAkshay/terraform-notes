@@ -1,0 +1,33 @@
+tables:
+  - table_id: "table_A"
+    partition_field: "created_at"
+    partition_type: "DAY"
+    schema_file: "schemas/table1.json"
+
+  - table_id: "Table_B"
+    partition_field: "created_at"
+    partition_type: "DAY"
+    schema_file: "schemas/table2.json"
+  
+  - table_id: "table_C"
+    partition_field: "created_at"
+    partition_type: "DAY"
+    schema_file: "schemas/table3.json"
+
+procedures:
+  - routine_id: "proc_A"
+    definition: "procedures/proc1.sql"
+    routine_type: "PROCEDURE"
+  
+  - routine_id: "proc_B"
+    definition: "procedures/proc2.sql"
+    routine_type: "PROCEDURE"
+    
+views:
+  - view_id: "view_A"
+    definition: "views/view_a.sql"
+    view_type: "VIEW"
+  
+  - view_id: "view_B"
+    definition: "views/view_b.sql"
+    view_type: "VIEW"
